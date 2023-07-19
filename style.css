@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url(uni.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+.toparea{
+    height:80px;
+    width:100%;
+    background-color:red;
+}
+
+/* Transparentarea */
+
+
+.transparent{
+    width:100%;
+    height:800px;
+    background-color:transparent;
+}
+
+
+/* cardarea */
+
+.cardarea{
+    width:100%;
+    height:500px;
+    background:transparent;
+}
+.boxarea{
+    align-items:center;
+    position: relative;
+    left:220px;
+    top:55px;
+}
+
+
+.box1{
+    width:350px;
+    height:400px;
+    background-color:red;
+    float:left;
+    opacity:0.5;
+}
+.box1:hover{
+    transform: translatey(-20px);
+    border-radius: 30px;
+    transition:all 0.5s;
+    opacity:1;
+}
+.box2{
+    width:350px;
+    height:400px;
+    background-color:red;
+    float:left;
+    margin-left: 20px;
+    opacity:0.5;
+}
+.box2:hover{
+    transform: translatey(-20px);
+    border-radius: 30px;
+    transition:all 0.5s;
+    opacity:1;
+}
+.box3{
+    width:350px;
+    height:400px;
+    background-color:red;
+    float:left;
+    margin-left: 20px;
+    opacity:0.5;
+}
+.box3:hover{
+    transform: translatey(-20px);
+    border-radius: 30px;
+    transition:all 0.5s;
+    opacity:1;
+}
+.box4{
+    width:350px;
+    height:400px;
+    background-color:red;
+    float:left;
+    margin-left: 20px;
+    opacity:0.5;
+}
+.box4:hover{
+    transform: translatey(-20px);
+    border-radius: 30px;
+    transition:all 0.5s;
+    opacity:1;
+}
+.cobox1{
+    width:350px;
+    height:150px;
+    background-color: blue;
+}
+.cobox2{
+    width:350px;
+    height:150px;
+    background-color: blue;
+}
+.cobox3{
+    width:350px;
+    height:150px;
+    background-color: blue;
+}
+.cobox4{
+    width:350px;
+    height:150px;
+    background-color: blue;
+}
